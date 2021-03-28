@@ -12,3 +12,15 @@ code {
 header {
   text-align: left;
 }
+
+.project {
+  color: black;
+}
+
+a:visited {
+  color: coral;
+}
+
+a {
+  color: darkolivegreen;
+}
