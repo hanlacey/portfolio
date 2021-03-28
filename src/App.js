@@ -1,16 +1,20 @@
 import './main.css';
+import React from "react"
+import Header from './components/Header'
+import NCNews from './components/NCNews'
+import Bio from './components/Bio'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          NC News backend project
-        </p>
+class App extends React.Component {
 
-      </header>
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Bio />
+        <NCNews />
+      </div>
+    );
+  }
 }
 
 export default App;
