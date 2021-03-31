@@ -13,7 +13,7 @@ function Header(props) {
                     <a href="http://github.com/hanlacey">Github</a>
                 </p>
                 <p id="bio-link">
-                    <a href="mailto:hnnhlcy@gmail.com">Email</a>
+                    <a href="mailto:hnnhlcy@gmail.com?subject=Hello" target="_blank">Email</a>
                 </p>
             </header>
 
