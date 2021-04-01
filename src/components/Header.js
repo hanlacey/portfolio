@@ -9,12 +9,11 @@ function Header(props) {
                     Trainee full stack developer<br></br>
                 Currently training at Northcoders bootcamp
             </p>
-                <p id="bio-link">
-                    <a href="http://github.com/hanlacey">Github</a>
-                </p>
-                <p id="bio-link">
-                    <a href="mailto:hnnhlcy@gmail.com?subject=Hello" target="_blank">Email</a>
-                </p>
+                <p id="bio-link-container">
+                    <a id="bio-link" href="http://github.com/hanlacey">Github</a>
+                    <a id="bio-link" href="http://linkedin.com/hanlacey">LinkedIn</a>
+                    <a id="bio-link" href="mailto:hlaceydev@gmail.com">hlaceydev@gmail.com</a>                </p>
+
             </header>
 
         </div>
