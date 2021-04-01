@@ -35,8 +35,6 @@ a {
   flex-direction: row;
   gap: 3rem;
   justify-content: space-between;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
 }
 
 .title-bar {
@@ -110,7 +108,7 @@ a {
     background-color: yellow;
   } */
   .project-card {
-    width: fit-content;
+    width: 100%;
   }
 }
 
