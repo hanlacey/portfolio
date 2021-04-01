@@ -33,7 +33,7 @@ class App extends React.Component {
         <Header />
         <div className="project-card-container">
           {this.state.projects.map((project) => {
-            return <ProjectCard projectTitle={project.title} projectDescription={project.description} projectLink={project.link} repoLink={project.link} />
+            return <ProjectCard projectTitle={project.title} projectDescription={project.description} projectLink={project.link} repoLink={project.repo} />
           })
           }
         </div>
